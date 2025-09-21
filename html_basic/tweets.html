@@ -3,16 +3,43 @@
 <head>
   <meta charset="UTF-8">
   <title>My Tweets</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-  <h1>Latest Tweets</h1>
 
-  <!-- Embedded Tweet -->
+<body>
+
+ <!--Navigation Menu-->
+ <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Homepage</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="tweets.html">My Tweets</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<main>
+   <h1>Latest Tweets</h1>
+
+  <!-- Embedded Tweet #1  -->
   <blockquote class="twitter-tweet">
     <p lang="en" dir="ltr">Just a sample tweet for testing embed on my webpage!</p>&mdash; OpenAI (@OpenAI) 
     <a href="https://twitter.com/OpenAI/status/1612927863279736832">September 21, 2025</a>
   </blockquote>
-  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+  <!-- Embedded Tweet #2 -->
+    <blockquote class="twitter-tweet">
+      <p lang="en" dir="ltr">Building better tools for developers every day 🚀</p>&mdash; OpenAI (@OpenAI)
+      <a href="https://twitter.com/OpenAI/status/1605314448446009345">December 21, 2024</a>
+    </blockquote>
+
+<script async src="https://platform.twitter.com/widgets.js"></script>
+    </main>
+
+    <footer>
+    <p>&copy; 2025 My Website | <a href="index.html">Back to homepage</a></p>
+  </footer>
 
   <!-- Link back to homepage -->
   <p><a href="index.html">Back to homepage</a></p>
